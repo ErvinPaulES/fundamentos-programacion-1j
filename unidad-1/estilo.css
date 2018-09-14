@@ -1,0 +1,24 @@
+p, li, h1{/*selector de comentarios*/
+    color: blue;
+    width: 500px;
+    border: 1px solid black;
+
+}
+#niveles{
+    background-color: rgb(187, 223, 255);
+}
+.clases, table{
+    text-align: center;
+    color: blueviolet;
+    font-family: fantasy;
+
+}
+#niveles:hover{
+    color: chocolate;
+    background: white;
+    font-family: 'libre Barcode 128 text', cursive;
+    padding: 1%;
+    border: 2px dashed;
+    margin: 2%;
+
+}

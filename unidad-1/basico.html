@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Elementos basicos HTML</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="estilo.css" />
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 <body>
     <h1>Fundamentos de programacion</h1>
     <p>Pagina de muestra de uso basico de html</p>
     <h2>Elementos basicos de HTML</h2>
-    <p>Existen seis niveles y se usan con la etiqueta h, con un numero del 1 al 6, el uno es el mas alto el 6 el mas bajo</p>
-    <h2>Listas</h2>
+    <p id="niveles">Existen seis niveles y se usan con la etiqueta h, con un numero del 1 al 6, el uno es el mas alto el 6 el mas bajo</p>
+    <h2 class="clases">Listas</h2>
     <h3>Listas desordenadas</h3>
 
     <ul>
@@ -59,9 +60,11 @@
             <Label for="Sexo">Sexo: </Label>
             <label>Hombre:</label><input type="radio" id="Hombre"/>
             <label>Mujer:</label><input type="radio" id="Mujer"/>
+            <br>
+            <br>
         </div>
         <div>
-        <p><label>Comentarios:</label></p>
+        <label>Comentarios:</label> <br>
         <textarea id="comentario"></textarea>
         </div>
         <button id="boton">Enviar</button>
@@ -70,8 +73,8 @@
         <input type="password" id="clave">
         <br>
         <label for="color">Color: </label>
-        <input type="color" id="color">
+        <input type="color" id="color">       
     </form>
-    
+     
 </body>
 </html>
